@@ -172,3 +172,25 @@ footer {
   text-align: center;
   font-size: 1.5rem; 
 }
+
+/* ======= Modal ======== */
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  font-size: 0;
+  width: 100vh;
+  z-index:1005;
+  -webkit-transition: background-color .5s 1s, height .5s;
+  transition: background-color .5s 1s, height .5s;
+}
+
+#SearchIcon:checked + .modal-overlay {
+  height: 100vh;
+  width: 100vh;
+  font-size: unset;
+  background-color: rgba(0,0,0,0.4);
+  -webkit-transition: font-size .3s .5s;
+  transition: font-size .3s .5s;
+}
