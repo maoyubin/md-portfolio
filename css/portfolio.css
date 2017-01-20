@@ -216,6 +216,7 @@ footer {
   display: none;
   position: absolute;
   bottom: 20px;
+  color: blue;
   left: 50%;
   transform: translateX(-50%);
 }
