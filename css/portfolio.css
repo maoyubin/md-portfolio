@@ -118,9 +118,36 @@ strong {
 /* Begin Content section */
 .section--title {
     text-align: center;
-    font-size: 7rem;
+    font-size: 4.5rem;
     font-weight: 100;
-    color: #3E4651; 
+    color: #3E4651;
+}
+
+.section--title-position-f {
+	position: relative;
+	padding-top: 160px;
+}
+
+.section--title-position {
+	position: relative;
+	padding-top: 60px;
+}
+
+.section--title-position-l {
+	position: relative;
+	padding-top: 180px;
+}
+
+
+.section-text {
+    position: relative;
+	padding-top: 30px;
+}
+
+.section-text p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 100; 
 }
 
 #port--about-sec {
@@ -148,22 +175,6 @@ strong {
   background-size: cover;
   height: 100vh;
   text-align: center; 
-}
-
-.section--title {
-	position: relative;
-	top: 25vh;
-}
-
-.section-text {
-    position: relative;
-	top: 35vh;
-}
-
-.section-text p {
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 100; 
 }
 
 footer {
