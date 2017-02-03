@@ -219,7 +219,7 @@ strong {
   display: inline-block;
   width: 70px;
   height: 160px;
-  top: -70px;
+  top: -90px;
   text-align: right;
   position: relative;
 }
@@ -284,7 +284,8 @@ strong {
 .bar-graph_items {
   position: relative;
   font-size: 14px;
-  left: 230px;
+  left: 220px;
+  top: -15px;
 }
 
 .bar-graph_item {
@@ -296,9 +297,8 @@ strong {
 }
 
 .tooltip {
-  position: relative;
-  top: -9px;
-  right: -120px;
+  position: absolute;
+  right: -100px;
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -322,14 +322,14 @@ strong {
   content: " ";
   height: 0;
   left: 50%;
-  margin-left: -13px;
-  position: relative;
+  margin-left: -10px;
+  position: absolute;
   width: 0;
 }
 
 .bar-graph_bar:hover > .tooltip {
   opacity: 1;
-  right: -130px;
+  right: -110px;
   transform: rotate(90deg);
   transition: right 0.2s, opacity 0.2s;
   visibility: visible;
