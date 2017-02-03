@@ -187,6 +187,7 @@ strong {
 
 .bar-graph_container {
   display: inline-block;
+  padding-top: 23px;
   width: 360px;
   height: 250px;
   border-bottom: 1px solid #bbb;
@@ -242,6 +243,14 @@ strong {
   position: relative;
   left: 70px;
   top: -23px;
+  transform: rotate(-90deg);
+}
+
+.bar-graph_bars-b {
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  top: 25px;
   transform: rotate(-90deg);
 }
 
