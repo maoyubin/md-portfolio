@@ -186,6 +186,7 @@ strong {
 }
 
 .bar-graph_container {
+  display: inline-block;
   width: 360px;
   height: 250px;
   border-bottom: 1px solid #bbb;
@@ -194,6 +195,12 @@ strong {
 .fe-graph {
   position: relative;
   left: 0;
+  top: 30px;
+}
+
+.be-graph {
+  position: relative;
+  left: 20px;
   top: 30px;
 }
 
