@@ -135,7 +135,7 @@ strong {
 
 .section--title-position-l {
 	position: relative;
-	padding-top: 180px;
+	padding-top: 70px;
 }
 
 
@@ -360,6 +360,153 @@ strong {
 }
 
 /*End Skill*/
+
+/*Contract*/
+.card-wrapper {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.card-container h1, h5 {
+  margin:0 auto;
+}
+
+.card-container h1 {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.card-container h5 {
+  font-size: .83em;
+}
+
+.card-container p {
+  font-size: .9em;
+}
+
+.card-container #format {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.card-container img {
+  float: left;
+}
+
+.card-container .inline > *{ 
+  display: inline-block;
+}
+
+.card-container ul li {
+  display: inline-block;
+}
+
+
+.card-container ul {
+  list-style-type: none;
+  float: right;
+  padding: 0;
+  margin:0;
+  margin-left:1px;
+  width: auto;
+}
+
+.card-container .light-pink {
+  color:pink;
+  text-decoration: none;
+  font-size: .9em;
+}
+
+.card-container {
+  width:500px;
+  height:300px;
+  margin:0 auto;
+  position: relative;
+  perspective:800px;
+  color: white;
+  font-size: 1em;
+  font-family: 'Roboto', serif;
+}
+
+.card {
+  width:100%;
+  height:100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style:preserve-3d;
+  transition: transform 1s;
+}
+
+.front {
+  background-image: url("../img/bg1.png");
+}
+
+.back {
+    background-image: url("../img/business-card-me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.back, .front {
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #323232;
+  width:100%;
+  height:100%;
+  position: absolute;
+  padding:0 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility:hidden;
+}
+
+.back p {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+}
+
+
+label[for="card-flip"]:hover > .card {
+  -webkit-transform: rotateX(15deg);
+  transform: rotateX(15deg);
+}
+
+#card-flip {
+  display: none;
+}
+
+/*flip card when checked */
+#card-flip:checked ~ .card-container label[for="card-flip"] > .card {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+
+.user-encyc {
+	display: block;
+	margin: 0.5em 0.5em;
+}
+
+.user-encyc * {
+	display: block;
+}
+
+.icon-turn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: transform 0.5s;
+  transition: transform 0.5s;
+}
+
+/*End contract*/
 
 #port--about-sec {
   /* Begin ABOUT section */
