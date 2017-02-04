@@ -186,11 +186,19 @@ strong {
 }
 
 .bar-graph_container {
-  display: inline-block;
   padding-top: 23px;
   width: 360px;
   height: 250px;
   border-bottom: 1px solid #bbb;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+  margin: auto auto;
 }
 
 .fe-graph {
