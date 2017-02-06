@@ -145,7 +145,10 @@ strong {
 }
 
 .section-text p {
-    font-size: 1.5rem;
+	width: 50%;
+    margin: 50px auto 0;
+    font-size: 2rem;
+    color: #F57ABA;
     text-align: center;
     font-weight: 100; 
 }
@@ -510,23 +513,24 @@ label[for="card-flip"]:hover > .card {
 
 #port--about-sec {
   /* Begin ABOUT section */
-  background: url("../img/bg-mt-thor.jpg") no-repeat fixed;
+  background: url("../img/about.jpg") no-repeat center center fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 #port--project-sec {
   /*Begin PROJECT section*/
-  background: url("../img/bg-ski-sweden.jpg") no-repeat fixed;
+  background: url("../img/project.jpg") no-repeat fixed;
   background-size: cover;
 }
 
 #port--skills-sec {
-  background: url("../img/bg-surf-oxnard.jpg") no-repeat fixed;
+  background: url("../img/skills.jpg") no-repeat fixed;
   background-size: cover;
 }
 
 #port--contact-sec {
-  background: url("../img/bg-goldengate.jpg") no-repeat fixed;
+  background: url("../img/contact.jpg") no-repeat fixed;
   background-size: cover;
   text-align: center; 
 }
