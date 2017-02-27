@@ -462,6 +462,8 @@ strong {
   padding: 0;
 }
 
+/*carousel-arrows start*/
+
 .carousel-nav-arrows {
   position: absolute;
   width: 100%;
@@ -471,7 +473,6 @@ strong {
 
 .carousel-nav-arrows label{
   position: absolute;
-  display: none;
   cursor: pointer;
   -webkit-transition: color .3s;
   -moz-transition: color .3s;
@@ -486,16 +487,30 @@ strong {
 .carousel-angle-right {
   right: 0;
 }
+/*carousel-arrows old*/
+label[class^='carousel-arrows-'] {
+	position: absolute;
+  	width: 100%;
+  	top: 45%;
+  	cursor: pointer;
+  	color: rgba(0,0,0,0.1);
+}
+
+label[class^='carousel-arrows-']:hover {
+	color: #4AB29B;
+}
+
+.carousel-arrows-next {
+  	width: 100%;
+  	left: 97%;
+}
+
+/*carousel-arrows end*/
 
 .carousel-slides {
   position: absolute;
   top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform:translateX(-50%);
-  transform: translateX(-50%);
+  left: 5%;
   width: 580px;
   height: 550px;
   border: 1px dashed #4AB29B;
