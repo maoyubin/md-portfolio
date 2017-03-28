@@ -145,17 +145,17 @@ strong {
 
 
 .section-text {
-    position: relative;
+  position: relative;
 	padding-top: 15px;
 }
 
 .section-text p {
 	width: 50%;
-    margin: 25px auto 0;
-    font-size: 2rem;
-    color: #05242E;
-    text-align: center;
-    font-weight: 100; 
+  margin: 25px auto 0;
+  font-size: 2rem;
+  color: #F50F9D;
+  text-align: center;
+  font-weight: 350; 
 }
 
 /* Skill */
@@ -885,3 +885,29 @@ footer {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/* ======= Back to Top ======== */
+
+
+
+
+@media screen and (min-width: 600px){
+
+  .back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(112, 239, 114, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+  }
+
+
+  .back-to-top:hover {  
+    background-color: rgba(112, 239, 114, 0.50);
+  }
+} 
